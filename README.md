@@ -141,15 +141,17 @@ npm run test
 
 
 ### 이벤트명 정의
-   const EVENTS = {
-    LOGIN: 'login',
-    LOGOUT: 'logout',
-    JOIN: 'join',
-    LEAVE: 'leave',
-    IMAGE: 'image',
-    CHAT: 'chat',
-    INVITE_AVAILABLE_USERS: 'inviteAvailableUsers',
-    INVITE: 'invite'
-  }
+    ```
+    const EVENTS = {
+      LOGIN: 'login',
+      LOGOUT: 'logout',
+      JOIN: 'join',
+      LEAVE: 'leave',
+      IMAGE: 'image',
+      CHAT: 'chat',
+      INVITE_AVAILABLE_USERS: 'inviteAvailableUsers',
+      INVITE: 'invite'
+    } 
+  ```
   
   
