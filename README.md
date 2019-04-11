@@ -49,7 +49,7 @@ npm run test:unit
 ### Features
 
 - 사용자는 첫 진입 시, ID를 입력하여 접속할 수 있다.
-  - 아이디 입력 Validation 없음
+  - 아이디 입력 Validation 은 최소 1글자 이상
   - 서버의 ActiveUserList와 비교하여 아이디 중복체크
   - login 이벤트 emit 후 성공 Callback으로 UserInfo(아이디, 소켓아이디)를 Vuex Store에 저장한다.
   - 인증이 필요한 페이지로 이동시마다 UserInfo State 를 확인하여 인증 처리
