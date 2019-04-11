@@ -19,7 +19,7 @@ npm run start
 ### 테스트 실행
 
 ```
-npm run test
+npm run test:unit
 ```
 
 ### 
