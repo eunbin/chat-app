@@ -82,17 +82,21 @@ npm run test
 - socket.io 활용하여 필요한 모든 기능 구현
 
 - 채팅방 모델
-
+  ```
   {
-
-  ​	title: string,
-
-  ​	roomId: Number,
-
-  ​	members: Array
-
+    title: String,
+    roomId: Number,
+    members: Array,
+  }  
+  ```
+- 사용자 모델
+  ```
+  {
+    userId: String,
+    socketId: String,
   }
-
+  ```
+  
 - socket.io 의 room 기능을 사용하여 채팅방 분리
 
 - namespace 기능은 활용 보류
