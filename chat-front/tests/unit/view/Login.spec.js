@@ -10,6 +10,7 @@ describe('LoginForm.vue', () => {
     expect(wrapper.vm.$el).toMatchSnapshot()
   })
 
+  // FIXME: [Vue warn]: Error in callback for immediate watcher "hasError": "TypeError: Cannot read property '$scopedSlots' of undefined"
   it('when rendering button should be inactive', () => {
     const wrapper = mount(Login)
     const el = wrapper.find('.v-btn')
