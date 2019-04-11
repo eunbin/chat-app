@@ -7,10 +7,6 @@ const apiFallback = require('connect-history-api-fallback');
 const app = express();
 app.io = require('socket.io')();
 
-app.get('/', (req, res) => {
-  res.send('Hello Chat!');
-});
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
