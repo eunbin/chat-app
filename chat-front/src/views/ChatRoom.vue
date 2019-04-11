@@ -8,7 +8,8 @@
         </user-list>
       </slot>
     </app-drawer>
-    <app-toolbar>
+    <app-toolbar
+      :title="chatRoomInfo && chatRoomInfo.title">
       <v-btn
         icon
         @click="onClickToPrevious">
