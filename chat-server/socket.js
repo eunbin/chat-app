@@ -40,7 +40,7 @@ const socket = (io) => {
     socket.on('logout', (userId, callback) => {
       console.log(`Client logout:\n userId:${userId}`);
 
-      activeUserList.splice(userId, 1);
+      activeUserList.splice(activeUserList.findIndex(item => item.userId === userId), 1);
       socket.userid = null;
 
       callback(setResultData(true, {
