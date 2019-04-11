@@ -1,0 +1,37 @@
+$color-primary = #F7CF46
+$toolbar-height = 64px
+$bottom-height = 56px
+
+#chat-app
+  .login-page
+    background-color $color-primary
+
+  .chat-lobby-page
+    .chat-room-list
+      position absolute
+      top $toolbar-height
+      right 0
+      bottom 0
+      left 0
+      overflow auto
+
+  .chat-room-page
+    .chat-window
+      position: absolute
+      top: $toolbar-height
+      right: 0
+      bottom: 0
+      left: 0
+      .chat-window__content
+        position absolute
+        top 0
+        left 0
+        right 0
+        bottom $bottom-height
+        overflow auto
+      .chat-window__bottom
+        position absolute
+        left 0
+        right 0
+        bottom 0
+
