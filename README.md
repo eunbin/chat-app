@@ -7,13 +7,15 @@
 ## 설치 및 실행
 
 ```
+git clone https://github.com/eunbin/chat-app.git
+cd chat-app
 cd chat-front
 npm install
-npm run build
+npm run build // distribute to chat-server/public
 cd ..
 cd chat-server
 npm install
-npm run start
+npm run start // http://localhost:3000
 ```
 
 ### 테스트 실행
