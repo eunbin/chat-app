@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppToolbar.vue snapshot check with items 1`] = `
+<nav
+  class="v-toolbar elevation-0 theme--dark primary"
+  style="margin-top: 0px; padding-right: 0px; padding-left: 0px; transform: translateY(0px);"
+>
+  <div
+    class="v-toolbar__content"
+    style="height: 64px;"
+  >
+     
+    <div
+      class="v-toolbar__title"
+    >
+      Hello Chat Room
+    </div>
+     
+    <div
+      class="spacer"
+    />
+     
+  </div>
+</nav>
+`;

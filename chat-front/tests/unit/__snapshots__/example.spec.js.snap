@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue snapshot check 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="chat-app"
+>
+  <div
+    class="application--wrap"
+  >
+    <main
+      class="v-content"
+      style="padding: 0px 0px 0px 0px;"
+    >
+      <div
+        class="v-content__wrap"
+      >
+        <router-view-stub />
+      </div>
+    </main>
+  </div>
+</div>
+`;
