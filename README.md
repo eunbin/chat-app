@@ -58,7 +58,7 @@ npm run test:unit
   - 로그인 성공 시 반환된 RoomList 를 리스트에 바인딩
   - 리스트 아이템 선택 시 /chat-room/:id 로 라우팅하여 채팅방 입장
   - 화면 상단 Toolbar 좌측 버튼을 클릭하여 로그아웃 할 수 있다.
-  - 채팅방 입장 시 join 이벤트 emit, roomId를 socekt room으로 사용한다.
+  - 채팅방 입장 시 join 이벤트 emit, roomId를 socket의 room으로 사용한다.
   - 채팅방 퇴장 시 leave 이벤트 emit
   - 입장/퇴장 안내 메시지가 자동으로 메시지 스레드에 추가된다
 - 채팅방에 다른 사용자를 초대할 수 있다.
